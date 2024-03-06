@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+   <!--Head-->
+   <style>
+body {
+  background-image: url('example_img_girl.jpg');
+}
+</style>
+</head>
+<body>
+
+<h2>Background Repeat</h2>
+
+<p>By default, the background image will repeat itself if it is smaller than the element where it is specified, in this case the body element.</p>
+
+</body>
+</html>
+
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width" />
+       <title>Your Name Here</title>
+       <link rel="stylesheet" type="text/css" href=stylesheet/portfolio.css">
+   </head>
+
+   <!--Body-->
+   <body class="Background">
+
+      <!--Navbar-->
+      <div class="Navbar">
+          <a class="active" href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#GitHub">GitHub</a>
+          <a href="#Contact">Contact</a>
+      </div>
+ 
+      <!--Background video-->
+      <div id="Home">
+           <video autoplay muted loop id="Typing_Video">
+               <source src="images/video/Typing.mp4" type="video/mp4">
+               <!--Display message if video fails to run-->
+               Your browser does not support HTML5 video.
+         </video>
+      </div>
+
+      <!--Video text-->
+      <div class="Video_Text">
+           <h1 class="white-text">Mehwish nayab's Portfolio</h1>
+           <strong>
+               <p class="center">
+                  <q>The computer programmer is a creator of universes for which he alome is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                             
+                         
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                       </q>
+                       <br> -Joseph Weizenbaum
+                       <br>
+                       <br> My name is Mehwish Nayab.Welcome to my portfolio website. on it, I will tell you about my background and experience.
+                       <br>
+                       <br> Thank you for stopping by and enjoy!
+<style>
+p {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
+                    </p>
+                </strong>
+             </div>
+
+             <!--About section-->
+             <div class="Row" id="About">
+                 <!--Left column-->
+                 <div class="Column_2>
+                     <img src="images/html_custom.png1">
+                 </div>
+                 <!--Right column-->
+                 <div class="Column_1"> 
+                      <h1>About</h1>
+                      <p>
+                         I am a software developer who loves to code! As a mother of two, I enjoy time with my family and friends. I love to do travelling. 
+                         <br>
+                         <br>I am a graduate of <a
+href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>'s Software Developer Boot Camp, and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                   <style>
+p {
+  background-image: url('img_girl.jpg');
+}
+</style>
+                         <br>
+                         <br>I am a full-stack developer and would love to work with you on your project. 
+<a href="#Contact">Contact</a> me below!
+                       </p>
+                   </div>
+               </div>
+
+               <!--GitHub section-->
+               <div class="Row" id="GitHub">
+                  <!--Left column-->
+                  <div class="Column_1">
+                       <h1>GitHub</h1>
+                       <p>
+                          you can view my coding projects on my GitHub profile here:
+                          <br>
+                          <p class="center"><a href="https://github.com/mehwishnayab2024" target="_blamk">mehwish.nayab2024 Github</a></p>
+                      </p>
+                   </dive>
+                   <!--Right column-->
+                   <div class="Column_2">
+                       <a href=!https://github.com/mehwishnayab2024" target="_blank">
+   <img src="GitHub.png">
+                   </div>
+                 </dive>
+
+                 <!--Contact section-->
+                 <div class="Row" id="Contact">
+                     <div class="Column_2 Coloumn.html.png">
+                         <img src="contact.html.png">
+                     </div>
+                     <!--Contact form, right column-->
+                     <div class="Column_1 Column_talll">
+                          <h1>Contact</h1>
+                          <!--This specifies where and how to send the form date; we are leaving it blank-->
+                          <form action="" method="POST"> <!--Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                          <lable>Name:</lable>
+                            <input type="text" placeholder="Mehwish Nayab">
+                          <label>Email:</label>
+                            <input type="text" id="Email" name="Email"
+placeholder="mehwish.nayab@hotmail.com">
+                          <label>Message:<label>
+                             <input type="text" id="Message" name="Message"
+placeholder="Thank You for contacting me">
+                             <input type="submit" value="SUBMIT">
+                   </form>
+               </div>
+            </div>
+            
+            <!--footer section-->
+            <footer>
+                <p>
+                    <p class="center">&copy Prosper Consulting Inc., <a
+href="https://www.learncodinganywhere.com/" target="_blank">Mehwish Nayab</a></p>
+                    <br>
+                 </p>
+              </footer>
+           </body>
+        </html>
